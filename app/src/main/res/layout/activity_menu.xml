@@ -24,15 +24,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Monto de compra"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/editTemperatura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:hint="Grados Celsius alimento"
             android:inputType="numberDecimal"
-            android:layout_marginTop="16dp" />
+            android:minHeight="48dp" />
 
         <TextView
             android:id="@+id/textAdvertencia"
